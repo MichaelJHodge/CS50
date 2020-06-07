@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Contact page </title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+body
+{
+  background-image: url('moscowold.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  opacity: 0.9;
+  filter: alpha(opacity=60);
+}
+
+h3
+{
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<h3>Contact me!</h3>
+
+<div class="container">
+  <form action="/contact.php" method ="post">
+    <div class="elim-group">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" placeholder="Your name please..." pattern=[A-Z\sa-z]{3,20} required>
+    </div>
+
+    <div class="elem-group">
+      <label for="email">Email</label>
+      <input type="text" id="email" name="email" placeholder="Your email please..." required>
+
+    <div class="elem-group">
+      <label for="location">Location</label>
+      <select id="country or continent" name="country or continent" required>
+        <option value="usa">USA</option>
+        <option value="Europe">Europe</option>
+        <option value="asia">Asia</option>
+        <option value="southamerica">South America</option>
+        <option value="africa">Africa</option>
+        <option value="Austrailia">Austrailia</option>
+        <option value="other">Other</option>
+    </select>
+    </div>
+
+    <div class="elem-group">
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="What would you like to write?" style="height:200px"></textarea>
+    </div>
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+<div class="w3-container">
+  <a href="http://127.0.0.1:3000/homepage/homepage.html">
+    <p><button class="w3-button w3-ripple w3-black w3-round-xlarge">Return to Homepage</button></p>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+<div class="w3-card w3-margin">
+  <div class="w3-container w3-padding">
+    <h4><b>Blog Posts</b></h4>
+  </div>
+  <ul class="w3-ul w3-hoverable w3-white">
+    <li class="w3-padding-16">
+      <img src="Travel.jpg" alt="Image" class="w3-left w3-margin-right" style="height:60px;width:60px;border:0">
+      <span class="w3-large">First Entry</span><br>
+      <p>Setting off to Russia</p>
+    </li>
+    <li class="w3-padding-16">
+    <img src="Russia.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px;height:60px">
+      <span class="w3-large">Second Entry</span><br>
+      <p>A whole new world</p>
+    </li>
+    <li class="w3-padding-16">
+      <img src="SaintPetersburg.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px;height:60px;border:0">
+      <span class="w3-large">Third Entry</span><br>
+      <p>We're not in Vermont anymore</p>
+    </li>
+    <li class="w3-padding-16">
+      <img src="Gogol.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px;border:0">
+      <span class="w3-large">Fourth Entry</span><br>
+      <p>City Tours and Gogol</p>
+    </li>
+  </ul>
+</div>
